@@ -31,5 +31,20 @@ namespace ServerdanClient_Zulfa_Fathian_Yahya_20180140076
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int a = Convert.ToInt32(textBox1.Text);
+            int b = Convert.ToInt32(textBox2.Text);
+            ServiceReference1.MatematikaClient obj = new ServiceReference1.MatematikaClient();
+            double hasilTambah = obj.Tambah(a, b);
+            tambah.Text = "Hasil Penambahan : " + hasilTambah.ToString();
+            double hasilKurang = obj.Kurang(a, b);
+            kurang.Text = "Hasil Pengurangan : " + hasilKurang.ToString();
+            double hasilKali = obj.Kali(a, b);
+            kali.Text = "Hasil Perkalian : " + hasilKali.ToString();
+            double hasilBagi = obj.Bagi(a, b);
+            bagi.Text = "Hasil Pembagian : " + hasilBagi.ToString();
+        }
     }
 }

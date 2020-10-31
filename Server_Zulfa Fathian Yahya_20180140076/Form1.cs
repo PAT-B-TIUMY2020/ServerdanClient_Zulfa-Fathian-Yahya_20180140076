@@ -32,7 +32,7 @@ namespace Server_Zulfa_Fathian_Yahya_20180140076
         private void btnon_Click(object sender, EventArgs e)
         {
             ServiceHost hostObj = null;
-            Uri address = new Uri("http://localhost:2222/Matematika");
+            Uri address = new Uri("http://localhost:8888/Matematika");
             BasicHttpBinding bind = new BasicHttpBinding();
             try
             {
@@ -72,8 +72,8 @@ namespace Server_Zulfa_Fathian_Yahya_20180140076
         {
             on.Visible = false;
             off.Visible = true;
-            onklik.Visible = true;
-            offklik.Visible = false;
+            onklik.Visible = false;
+            offklik.Visible = true;
         }
     }
 }

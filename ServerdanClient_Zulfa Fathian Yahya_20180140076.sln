@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client_Zulfa Fathian Yahya_20180140076", "ServerdanClient_Zulfa Fathian Yahya_20180140076\Client_Zulfa Fathian Yahya_20180140076.csproj", "{5DCC098F-1111-4312-A9C5-ECF7093A6046}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server_Zulfa Fathian Yahya_20180140076", "Server_Zulfa Fathian Yahya_20180140076\Server_Zulfa Fathian Yahya_20180140076.csproj", "{F9CF8FB3-F354-41D3-B3D5-7B3646DAADAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DCC098F-1111-4312-A9C5-ECF7093A6046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DCC098F-1111-4312-A9C5-ECF7093A6046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DCC098F-1111-4312-A9C5-ECF7093A6046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DCC098F-1111-4312-A9C5-ECF7093A6046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9CF8FB3-F354-41D3-B3D5-7B3646DAADAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9CF8FB3-F354-41D3-B3D5-7B3646DAADAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9CF8FB3-F354-41D3-B3D5-7B3646DAADAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9CF8FB3-F354-41D3-B3D5-7B3646DAADAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AF45480-C2AD-4E24-8BA3-EC60892DF031}
+	EndGlobalSection
+EndGlobal
